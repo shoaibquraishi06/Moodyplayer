@@ -1,0 +1,197 @@
+@media (max-width: 768px){
+
+  .mood-songs{
+    padding: 1rem 1rem;
+  }
+  .mood-songs h1{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #e7e7e7;
+    width: fit-content;
+    border-bottom: 2px solid transparent;
+    background: linear-gradient(135deg, #40ffaa, #4079ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 100;
+    margin-bottom: 1.4rem;
+  }
+  .song-item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 0.6px solid #4079ff;
+
+  padding: 0.2rem 1.3rem;
+ margin-bottom: 0.5rem;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+.mood-songs p {
+  color: #9b9999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+.mood-songs .song{
+  display: flex;
+  width: 90%;
+  color:crimson;
+  justify-content: space-between;
+}
+
+
+h4{
+  color: #fff;
+  background-color: #4079ff;
+}
+.play-pause-button  audio{
+  display: none;
+}
+.title h3{
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: #e7e7e7;
+  margin-top: 0.5rem;
+   /* background: linear-gradient(135deg, #40ffaa, #4079ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+.title p{
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+    margin-top: -0.6rem;
+
+  font-weight: 100;
+  color: #9c9c9c;
+   /* background: linear-gradient(135deg, #40ffaa, #4079ff); */
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+
+.play-toggle{
+  padding: 0.3rem 0.8rem;
+   background: linear-gradient(135deg, #40ffaa, #4079ff);
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 3px;
+   font-weight: 500;
+   color: #171717;
+   cursor: pointer;
+   transition: background 0.3s ease;
+}
+
+.play-toggle:hover {
+   background: linear-gradient(135deg, #4079ff, #40ffaa);
+}
+
+}
+
+
+@media (min-width: 768px){
+.mood-songs{
+    /* width: 100%; */
+    padding: 2rem;
+    padding-top: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.mood-songs h1{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #e7e7e7;
+    width: fit-content;
+    border-bottom: 2px solid transparent;
+    background: linear-gradient(135deg, #40ffaa, #4079ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 100;
+    margin-bottom: 0.9rem;
+}
+
+.song-item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 0.6px solid #4079ff;
+  /* border-image: linear-gradient(135deg, #40ffaa, #4079ff); */
+  /* border: image slice 0.1em; */
+  padding: 0.5rem 2rem;
+ margin-bottom: 0.5rem;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.mood-songs .song{
+  display: flex;
+  width: 100%;
+  color:crimson;
+  justify-content: space-between;
+}
+
+
+h4{
+  color: #fff;
+  background-color: #4079ff;
+}
+.play-pause-button  audio{
+  display: none;
+}
+.title h3{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: #e7e7e7;
+  margin-top: 1rem;
+   /* background: linear-gradient(135deg, #40ffaa, #4079ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+.mood-songs p {
+  color: #9b9999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.2;
+} 
+.title p{
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+    margin-top: -0.6rem;
+
+  font-weight: 100;
+  color: #9c9c9c;
+   /* background: linear-gradient(135deg, #40ffaa, #4079ff); */
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+
+.play-toggle{
+  padding: 0.3rem 0.8rem;
+   background: linear-gradient(135deg, #40ffaa, #4079ff);
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 3px;
+   font-weight: 500;
+   color: #171717;
+   cursor: pointer;
+   transition: background 0.3s ease;
+}
+
+.play-toggle:hover {
+   background: linear-gradient(135deg, #4079ff, #40ffaa);
+}
+}
+
